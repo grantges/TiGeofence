@@ -1,6 +1,18 @@
-Welcome to your Appcelerator Titanium Mobile Project
+TiGeofence Javascript Module Example
+Author: Bert Grantges
 
-This is a single window application with a single view - a mostly blank canvas. Requires Titanium Mobile SDK 1.8.0+
+Special Credit goes to Steven Ou for his Obj-C code found here:
+http://stevenou.com/post/17623116547/how-to-hack-geofencing-into-titanium
+
+Overview: 
+This application allows you to create hotspots and setup iOS to monitor those spots for geofencing. 
+
+Important Note:
+- The GeolocationModule.mm file under the Classes folder should be copied into the build/iphone/Classes folder of the generated XCode project
+- For successful builds, I have found that this project must also be built using XCode
+
+
+Requires Titanium Mobile SDK 2.0.1+
 
 ----------------------------------
 Stuff our legal folk make us say:
